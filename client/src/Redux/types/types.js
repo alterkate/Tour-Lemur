@@ -1,2 +1,9 @@
 export const ADD_TRIPS = 'ADD_TRIPS';
 export const ADD_TRIPS_SAGA = 'ADD_TRIPS_SAGA';
+export const SORT_TRIPS_BY_DATE = 'SORT_TRIPS_BY_DATE';
+export const SORT_TRIPS_BY_PRICE = 'SORT_TRIPS_BY_PRICE';
+export const FIND_TRIPS_BY_SEASON = 'FIND_TRIPS_BY_SEASON';
+export const DISABLE_LOADER = 'DISABLE_LOADER';
+export const ENABLE_LOADER = 'ENABLE_LOADER';
+export const ADD_TRIP = 'ADD_TRIP';
+export const ADD_TRIP_SAGA = 'ADD_TRIP_SAGA';

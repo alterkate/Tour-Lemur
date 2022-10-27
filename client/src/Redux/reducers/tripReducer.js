@@ -1,13 +1,13 @@
-import { ADD_TRIPS_SAGA } from '../types/types';
+import { ADD_TRIP_SAGA } from '../types/types';
 
-const tripReducer = (state = [], action) => {
+const tripsReducer = (state = [], action) => {
   const { type, payload } = action;
   switch (type) {
-    case ADD_TRIPS_SAGA:
+    case ADD_TRIP_SAGA:
       return payload;
     default:
       return state;
   }
 };
 
-export default tripReducer;
+export default tripsReducer;
