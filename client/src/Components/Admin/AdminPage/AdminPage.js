@@ -1,8 +1,11 @@
 import React from 'react';
+import EditTrip from '../EditTrip/EditTrip';
 
 function AdminPage() {
   return (
-    <div>AdminPage</div>
+    <div>
+      <EditTrip />
+    </div>
   );
 }
 

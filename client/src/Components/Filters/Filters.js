@@ -1,6 +1,6 @@
 /* eslint-disable object-curly-newline */
 /* eslint-disable indent */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   sortTripsByDateAction,

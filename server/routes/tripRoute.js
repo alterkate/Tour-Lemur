@@ -64,24 +64,6 @@ router.get('/:tripId', async (req, res) => {
         { model: Photos },
       ],
     });
-    console.log('0000000000000000', result);
-    // const finalrResult = result.map((el) => ({
-    //   id: el.id,
-    //   title: el.title,
-    //   description: el.description,
-    //   start: el.start,
-    //   end: el.end,
-    //   price: el.price,
-    //   visible: el.visible,
-    //   level: el.Complexity.level,
-    //   children: el.Child.child,
-    //   direction: el.Direction.direction,
-    //   duration: el.Duration.duration,
-    //   season: el.Seasone.season,
-    //   mainPhoto: el.Photo.main,
-    //   otherPhotos: [el.Photo.photo1, el.Photo.photo2, el.Photo.photo3],
-    // }));
-    // console.log('-------------', finalrResult);
     res.json(result);
   } catch (error) {
     return json('не удалось загрузить информацию', error);

@@ -1,0 +1,35 @@
+.mainpage_about_container {
+  position: relative;
+  background: #e3f8d6;
+  top: 708px;
+}
+
+.mainpage_about_img {
+  width: 40%;
+  border-radius: 37px;
+}
+
+.mainpage_about_img > img {
+  width: 100%;
+  border-radius: 37px;
+}
+
+.mainpage_about_content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.mainpage_about_text_block {
+  width: 50%;
+  font-weight: 400;
+  font-size: 1.32vw;
+  line-height: 153.4%;
+  color: #192819;
+}
+
+.mainpage_about_button {
+  padding-top: 5%;
+  width: 45%;
+}

@@ -1,0 +1,9 @@
+.FilterMain_container {
+  position: absolute;
+  width: 1140px;
+  height: 90px;
+  left: 150px;
+  top: 687px;
+  background: #ffffff;
+  border-radius: 45px;
+}

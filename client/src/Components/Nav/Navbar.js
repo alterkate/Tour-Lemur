@@ -10,28 +10,29 @@ function Navbar() {
     <div className="navbar">
       <div>
         <Link to="/">
-          <img
-            className="navbar_logo"
-            alt="logo"
-            src="/images/loader.png"
-          />
+          <img className="navbar_logo" alt="logo" src="/images/Nav/Logo.png" />
         </Link>
       </div>
       <div className="navbar_links">
-        <NavLink className={getActiveClassName} to="/" end>
-          Main
-        </NavLink>
-        <div className="divider" />
-        <NavLink className={getActiveClassName} to="/about" end>
-          About
-        </NavLink>
-        <div className="divider" />
         <NavLink className={getActiveClassName} to="/trips" end>
-          Trips
+          <img
+            className="navbar_icon"
+            alt="icon"
+            src="/images/Nav/Receipt.png"
+          />
+          Туры
         </NavLink>
-        <div className="divider" />
+        <NavLink className={getActiveClassName} to="/about" end>
+          <img className="navbar_icon" alt="icon" src="/images/Nav/Heart.png" />
+          О нас
+        </NavLink>
         <NavLink className={getActiveClassName} to="/admin" end>
-          Admin
+          <img className="navbar_icon" alt="icon" src="/images/Nav/Call.png" />
+          Контакты
+        </NavLink>
+        <NavLink className={getActiveClassName} to="/admin" end>
+          <img className="navbar_icon" alt="icon" src="/images/Nav/User.png" />
+          Войти
         </NavLink>
       </div>
     </div>
